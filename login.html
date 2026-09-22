@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee House - Login</title>
+    <link rel="stylesheet" href="login.html">
+</head>
+
+<body>
+
+    <div class="login-box">
+        <h1> Coffee House</h1>
+        <p>Welcome! Please login to continue.</p>
+
+        <form onsubmit="login(event)">
+            <br>
+            <input type="text" id="username" placeholder="Username" required>
+        </br>
+
+        <br>
+            <input type="password" id="password" placeholder="Password" required>
+    </br>
+
+    <br>
+
+            <button type="submit">Login</button>
+</br>
+
+            <p id="message"></p>
+        </form>
+    </div>
+
+    <script>
+        function login(event) {
+            event.preventDefault();
+
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+
+           
+    </script>
+
+</body>
+</html>
