@@ -1,0 +1,163 @@
+.team-section {
+    padding: 70px 8%;
+    background: #fffaf5;
+}
+
+/* Section Heading */
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title span {
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #a06b45;
+}
+
+.section-title h1 {
+    font-size: 34px;
+    color: #3d2619;
+    margin: 10px 0;
+}
+
+.section-title p {
+    color: #777;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+
+/* Main Card */
+
+.founder-card {
+    max-width: 950px;
+    margin: auto;
+    background: white;
+    display: flex;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(60, 35, 20, 0.12);
+}
+
+
+/* Photo */
+
+.team-photo {
+    width: 40%;
+    padding:25px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.team-photo img {
+    width:30px;
+    height:20px;
+    object-fit: cover;
+    border-radius: 12px;
+    min-height: 10px;
+    display: block;
+}
+
+
+/* Content */
+
+.team-content {
+    width: 30%;
+    padding: 55px 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.small-title {
+    color: #a06b45;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.team-content h2 {
+    font-size: 32px;
+    color: #3d2619;
+    margin-bottom: 18px;
+}
+
+.intro {
+    color: #666;
+    line-height: 1.7;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+
+/* Names & Posts */
+
+.roles {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.role h3 {
+    color: #3d2619;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.role p {
+    color: #a06b45;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.line {
+    width: 1px;
+    height: 45px;
+    background: #ddd;
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+    .founder-card {
+        flex-direction: column;
+    }
+
+    .team-photo,
+    .team-content {
+        width: 50%;
+    }
+
+    .team-photo img {
+        height: 100px;
+        min-height: 0;
+    }
+
+    .team-content {
+        padding: 35px 25px;
+    }
+
+    .section-title h1 {
+        font-size: 27px;
+    }
+} 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f1eb;
+    color: #3b2418;
+}

@@ -1,0 +1,49 @@
+.order-page {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+.order-page h1 {
+    color: #5a3825;
+    margin-bottom: 30px;
+}
+
+.order-page label {
+    display: inline-block;
+    width: 120px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.order-page input,
+.order-page select,
+.order-page textarea {
+    width: 300px;
+    height: 38px;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.order-page textarea {
+    height: 80px;
+    vertical-align: top;
+}
+
+.order-page button {
+    margin-left: 120px;
+    padding: 10px 20px;
+    background-color: #6f4e37;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.order-page button:hover {
+    background-color: #4b2e1f;
+}
